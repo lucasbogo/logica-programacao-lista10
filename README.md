@@ -32,7 +32,7 @@ Excercícios em **C** para a disciplina de Logica de programação (IFPR) | **MA
 |   1   |  8.0  |  9.0  |  8.0  |  7.0  |  8.0  |
 |   2   |  9.0  |  7.0  |  6.0  |  7.0  |  7.2  |
 |   3   |  5.0  |  6.0  |  7.0  |  6.0  |  6.0  |
-media                                      7.1
+| media |       |       |       |       |  7.1  |
 <br>
 
 7. Faça um programa que usa uma matriz para gerar e armazenar 50 combinações de 6 números para a loteria. Utilize a função rand() - da biblioteca stdlib.h, para gerar os números aleatórios (faixa de números entre 1 e 60) que serão armazendos para cada jogo (combinação). Considere que é permitido a repetição dos números (ou seja, não é necessária essa verificação). Ao final o programa deve imprimir as combinações conforme o exemplo abaixo:
@@ -47,3 +47,31 @@ Combinação 50: 53 33 30 55 42 30
 <br>
 
 8. Faça um programa para simular um jogo da velha. Inicialmente, a matriz deve ser preenchidacom pontos. Depois o programa deve solicitar ao jogador que digite um par de coordenadas atribuir o caractere 'o' ou 'x' ao elemento da matriz correspondente às coordenadas entradas. A cada coordenada digitada, o programa deve imprimir a matriz resultante e verificar se algum jogador já ganhou ou se houve empate. O programa deve permanecer nesse loop até chegar ao final do jogo.
+```
+Jogo da Velha
+(Digite as coordenadas na forma linha coluna)
+. . .
+. . .
+. . .
+Coordenadas – Jogador 1: 0 0
+o . .
+. . .
+. . .
+Coordenadas – Jogador 2: 0 1
+o x .
+. . .
+. . .
+Coordenadas – Jogador 1: 1 1
+o x .
+. o .
+. . .
+Coordenadas – Jogador 2: 0 2
+o x x
+. o .
+. . .
+Coordenadas – Jogador 1: 2 2
+o x x
+. o .
+. . o
+Ganhador: Jogador 1 !!!
+```
